@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "childproc.h": "c",
+        "chrono": "cpp",
+        "variant": "cpp"
+    }
+}
