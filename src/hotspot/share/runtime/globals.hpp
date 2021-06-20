@@ -2087,6 +2087,9 @@ const intx ObjectAlignmentInBytes = 8;
                                                                             \
   develop(bool, TraceOptimizedUpcallStubs, false,                              \
                 "Trace optimized upcall stub generation")                      \
+                                                                            \
+  develop(bool, HelloJover, false,                                          \
+                "Print 'Hello Jover!'")                                     \
 
 // end of RUNTIME_FLAGS
 

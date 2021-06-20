@@ -3085,6 +3085,10 @@ jint Threads::create_vm(JavaVMInitArgs* args, bool* canTryAgain) {
     ShouldNotReachHere();
   }
 
+  if (HelloJover) {
+    tty->print_cr("Hello Jover!");
+  }
+
   return JNI_OK;
 }
 
